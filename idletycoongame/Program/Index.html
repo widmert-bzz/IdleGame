@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Miner</title>
+    <link rel="stylesheet" href="StyleDark.css">
+</head>
+<body>
+
+<p id="Title">Idle Tycoon Game</p>
+
+<p id="Balance">Balance: 0$</p>
+
+<div class="switch-toggle switch-3 switch-candy text bold">
+
+    <input id="1x" name="state-d" type="radio" checked="checked" />
+    <label for="1x" onclick="updateAllPrices(1)">1x</label>
+    <input id="5x" name="state-d" type="radio" />
+    <label for="5x" onclick="updateAllPrices(5)">5x</label>
+    <input id="10x" name="state-d" type="radio" />
+    <label for="10x" onclick="updateAllPrices(10)">10x</label>
+
+</div>
+
+<div id="MinerFlex"></div>
+
+<div id="AddButton"></div>
+
+<script src="Script.js"></script>
+<script src="Miner.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    height: 300vh;
+    background: linear-gradient(aqua, hotpink, deeppink, hotpink, aqua) 0 100%;
+    scroll-behavior: smooth;
+}
+
+#Title {
+    text-align: center;
+    font-size: xxx-large;
+    margin: auto;
+    color: black;
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: bold;
+}
+
+#MoneyText {
+    font-size: xx-large;
+    display: flex;
+    margin-top: 1px;
+    color: black;
+}
+
+.name {
+    color: black;
+    font-size: x-large;
+}
+
+.price {
+    color: black;
+    font-size: x-large;
+    text-align: right;
+
+}
+
+.level {
+    color: black;
+    font-size: x-large;
+    margin-right: 5%;
+}
+
+.upgrade {
+    height: 30px;
+    width: 80px;
+    color: aqua;
+    background: black;
+    margin-left: 28%;
+    border-radius: 20px;
+
+
+}
+
+#newMinerButton {
+    height: 150px;
+    width: 50%;
+    color: hotpink;
+    background-color: black;
+    margin-left: 22%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-family: fantasy;
+    bottom: 0;
+    position: fixed;
+    z-index: 3000;
+}
+
+
+.container {
+    width: 50%;
+    height: 40%;
+    padding: 20px 50px 20px 20px;
+    border: 5px solid black;
+    margin-top: 50px;
+    size: 100px;;
+    background: gray;
+    border-radius: 20px;
+
+}
+
+#MinerFlex {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
+#newMinerButton:hover {
+    cursor: pointer;
+}
+
+.upgrade:hover {
+    cursor: pointer;
+}
+
+#newMinerButton:active{
+    background: green;
+    color: black;
+}
+
+.upgrade:active{
+    background: green;
+    color: black;
+}
